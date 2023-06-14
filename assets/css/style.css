@@ -58,3 +58,30 @@ h1, h2 {
     background-size: cover;
     background-position: center center;
 }
+
+footer {
+    height: 50px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 450%;
+    margin: 1%;
+    padding: 5%;
+    color: #73a580;
+}
+
+footer {
+    text-align: center;
+}
+
+#map {
+    padding: 1em;
+}
