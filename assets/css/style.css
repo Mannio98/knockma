@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300&family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Karma, serif;
+    font-weight: 300;
+}
+
+h1, h2 {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    color: #73a580;
+    letter-spacing: 3px;
+}
+
+#logo {
+    text-align: center;
+    font-size: 550%;
+}
+
+#deco {
+    text-decoration: none;
+}
+
+#menu {
+    text-align: center;
+    font-size: 180%;
+}
+
+#menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+#menu a {
+    color: #73a580;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #73a580;
+}
+
+.active{
+    border-bottom: 1px solid #73a580;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/knockma-hero.jpg);
+    background-size: cover;
+    background-position: center center;
+}
