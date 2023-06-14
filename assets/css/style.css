@@ -113,3 +113,34 @@ footer {
 .figure figcaption {
     text-align: center;
 }
+
+#club {
+    text-align: center;
+}
+
+.signup {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #73a580;
+}
+
+label {
+    display: block;
+}
+
+.button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #73a580;
+    color: #fafafa;
+    display: block;
+}
+
+.button:hover {
+    background-color: #fafafa;
+    color: #73a580;
