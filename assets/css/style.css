@@ -19,6 +19,18 @@ h2 {
     letter-spacing: 3px;
 }
 
+h3 {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    color: #73a580;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 10px 0;
+}
+p{
+    padding: 0 50px;
+}
+
 #logo {
     text-align: center;
     font-size: 550%;
@@ -144,3 +156,4 @@ label {
 .button:hover {
     background-color: #fafafa;
     color: #73a580;
+}
