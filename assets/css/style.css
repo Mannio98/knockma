@@ -175,3 +175,20 @@ label {
     background-color: #fafafa;
     color: #73a580;
 }
+
+/* media queries */
+
+/* for smartphone screens size from 600px wide and down */
+@media screen and (max-width: 600px) {
+
+    #logo{
+        font-size: 40px;
+    }
+
+    #menu{
+        font-size: 14px;
+    }
+
+    .figure {
+        font-size: 12px;
+    }
