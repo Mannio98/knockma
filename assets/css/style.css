@@ -192,4 +192,8 @@ label {
     .figure {
         font-size: 12px;
     }
+
+    #hero-image {
+        height: 150px;
+    }
 }
